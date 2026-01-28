@@ -1,11 +1,18 @@
 /*RESET*/
+/* fungsi margin adalah untuk mengatur jarak di luar elemen
+sedangkan padding adalah untuk mengatur jarak di dalam elemen, 
+box-sizing border book memastkikan bahwa padding dan border termasuk dalam lebar tinggi elemen */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 /*GLOBAL*/
+/*
+fungsi font family adalah untuk menetukan jenis huruf yang digunakan pada halaman web.
+*/
 body {
     font-family: Arial, sans-serif;
     color: #333;
@@ -22,6 +29,12 @@ a {
 }
 
 /*HEADER*/
+/*
+fungsi background untuk mengatur warna latar belakang elemen,
+padding untuk mengatur jarak di dalam elemen,
+font-size untuk mengatur ukuran huruf,
+margin-right untuk mengatur jarak kanan antar elemen.
+*/
 .header {
     background: #1e3a8a;
     color: white;
@@ -35,6 +48,10 @@ a {
 }
 
 /*HERO*/
+/*fungsi text-align untuk mengatur perataaan teks,
+padding untuk mengatur jarak di dalam elemen,
+backgrounf untuk mengatur warna latar belakang elemen,
+margin-bottom untuk mengatur jarak bawah antar elemen.*/
 .hero {
     background: #e5e7eb;
     text-align: center;
@@ -45,6 +62,15 @@ a {
 }
 
 /*BUTTON*/
+/*
+fungsi display untuk mengatur tampilan elemen,
+margin-top untuk mengatur jarak atas elemen,
+padding untuk mengatur jarak di dalam elemen,
+background untuk mengatur warna latar belakang elemen,
+color untuk mengatur warna teks,
+border-radius untuk mengatur sudut elemen agar melengkung.
+
+*/
 .btn {
     display: inline-block;
     margin-top: 20px;
@@ -55,6 +81,12 @@ a {
 }
 
 /*SECTION*/
+
+/*
+fungsi padding untuk mengatur jarak di dalam elemen,
+margin-bottom untuk mengatur jarak bawah antar elemen.
+background untuk mengatur warna latar belakang elemen.
+*/
 .section {
     padding: 50px 0;
 }
@@ -66,6 +98,12 @@ a {
 }
 
 /*LIST*/
+
+/*
+fungsi margin-left untuk mengatur jarak kiri elemen,
+margin-bottom untuk mengatur jarak bawah antar elemen.
+
+*/
 .list {
     margin-left: 20px;
 }
@@ -74,6 +112,14 @@ a {
 }
 
 /*CTA*/
+
+/*
+fungsi background untuk mengatur warna latar belakang elemen,
+color untuk mengatur warna teks,
+text-align untuk mengatur perataan teks,
+padding untuk mengatur jarak di dalam elemen.
+
+*/
 .cta {
     background: #1e3a8a;
     color: white;
@@ -82,6 +128,13 @@ a {
 }
 
 /*FOOTER*/
+
+/*
+fungsi background untuk mengatur warna latar belakang elemen,
+color untuk mengatur warna teks,
+text-align untuk mengatur perataan teks,
+padding untuk mengatur jarak di dalam elemen.
+*/
 .footer {
     background: #111827;
     color: white;
