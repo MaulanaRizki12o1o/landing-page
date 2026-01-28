@@ -1,0 +1,90 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*GLOBAL*/
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+/*HEADER*/
+.header {
+    background: #1e3a8a;
+    color: white;
+    padding: 15px 0;
+}
+.logo {
+    font-size: 22px;
+}
+.nav a {
+    margin-right: 15px;
+}
+
+/*HERO*/
+.hero {
+    background: #e5e7eb;
+    text-align: center;
+    padding: 60px 0;
+}
+.hero h2 {
+    margin-bottom: 15px;
+}
+
+/*BUTTON*/
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #1e3a8a;
+    color: white;
+    border-radius: 10px;
+}
+
+/*SECTION*/
+.section {
+    padding: 50px 0;
+}
+.section h2 {
+    margin-bottom: 15px;
+}
+.light {
+    background: #f9fafb;
+}
+
+/*LIST*/
+.list {
+    margin-left: 20px;
+}
+.list li {
+    margin-bottom: 8px;
+}
+
+/*CTA*/
+.cta {
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+/*FOOTER*/
+.footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
